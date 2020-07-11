@@ -1,6 +1,7 @@
 pragma solidity ^0.5.0;
 
 contract ProxyDelegate {
+	uint256 public version;
     address public owner;
     address public delegate;  // contract to delegate calls to
 
